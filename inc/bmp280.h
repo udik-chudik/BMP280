@@ -1,7 +1,9 @@
 #include "bmp280_constants.h"
+#include "i2c.h"
 #include <stdint.h>
 #ifndef BMP280
 #define BMP280
+/*
 #ifndef HAL_StatusTypeDef
 #define HAL_StatusTypeDef int
 #endif
@@ -9,6 +11,7 @@
 #ifndef I2C_HandleTypeDef
 #define I2C_HandleTypeDef int
 #endif
+*/
 typedef struct
 {
     unsigned short dig_T1;
