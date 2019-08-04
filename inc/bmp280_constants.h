@@ -1,0 +1,18 @@
+#ifndef BMP280_REGISTERS
+#define BMP280_REGISTERS
+/*
+    Address map of BMP280 registers
+*/
+
+#define BMP280_REG_DIG_T1_LSB 0x88
+#define BMP280_REG_TEMPERATURE 0xFA
+#define BMP280_REG_PRESSURE 0xF7
+#define BMP280_REG_RESET 0x0E
+#define BMP280_REG_CHIP_ID 0xD0
+#define BMP280_REG_CTRL_MEAS 0xf4
+#define BMP280_REG_CONFIG 0xf5
+
+
+#define BMP280_RESET_VALUE 0xB6
+
+#endif

@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "name": "linux",
+            "includePath": [
+                "${workspaceRoot}/inc",
+                "${workspaceRoot}/test",
+                "${workspaceRoot}/test/unity"
+            ]
+        }
+    ],
+    "version": 4
+}
