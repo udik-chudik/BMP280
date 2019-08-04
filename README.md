@@ -75,7 +75,7 @@ Sets config. Detailed config description below.
 * osrs_t
 * mode
 
-You have to define all of this fields, because they have not default values.
+You have to define all of this fields, because they do not have default values.
 ### `inactive`
 Defines time interval (in ms) between measurments (data updates). Can take the following values:
 * `INACTIVE_05`
